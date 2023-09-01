@@ -25,6 +25,34 @@ RepoSavant is an innovative Python-based utility designed to elevate your GitHub
 
 - Flask is used for the frontend, maintaining a GitHub theme to provide a seamless user experience.
 
+## 🛠️ Configuration
+
+To use RepoSavant effectively, you need to configure your OpenAI API key and GitHub token. Here's how:
+
+1. **OpenAI API Key:**
+   - Go to the [OpenAI](https://platform.openai.com/account/api-keys) website and sign in or create an account if you don't have one.
+   - Navigate to the API section to obtain your API key. Keep it secure and never share it publicly.
+
+2. **GitHub Token:**
+   - Go to your GitHub account settings and navigate to "Developer settings" > "Personal access tokens."
+   - Generate a new token with the necessary permissions (e.g., `repo`, `user`, `read:org`) for RepoSavant.
+   - Ensure you keep this token secure and do not expose it in public repositories.
+
+3. **Create a `.env` file:**
+   - In the root directory of your RepoSavant project, create a `.env` file if it doesn't already exist.
+   - Add your OpenAI API key and GitHub token to the `.env` file as follows:
+   <br>
+   
+    ```.env[]
+    OPENAI_API_KEY=your_openai_api_key_here
+    GITHUB_TOKEN=your_github_token_here
+    ```
+4. **Save and Secure:**
+- Save the `.env` file.
+- Ensure that you keep this file private and do not include it in your version control system (e.g., Git). Add it to your `.gitignore` if needed.
+
+With these configurations in place, RepoSavant will be able to access the necessary APIs securely for its functionality.
+
 ## 📦 Project Dockerization
 
 To run RepoSavant in a Docker container, follow these steps:
@@ -51,6 +79,8 @@ pip install -r requirements.txt
 python app.py
 ``` 
  4. Open your browser and navigate to `http://localhost:5000`.
+
+
 
 ## 💪 Contributing
 
