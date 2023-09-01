@@ -1,9 +1,9 @@
 # RepoSavant 🕵️‍♂️🔍💻
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/kartikeymish/RepoSavant/blob/main/LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/kartikeymish/RepoSavant.svg)](https://github.com/kartikeymish/RepoSavant/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/kartikeymish/RepoSavant.svg)](https://github.com/kartikeymish/RepoSavant/network)
 [![GitHub Issues](https://img.shields.io/github/issues/kartikeymish/RepoSavant.svg)](https://github.com/kartikeymish/RepoSavant/issues)
+<!--[![GitHub Stars](https://img.shields.io/github/stars/kartikeymish/RepoSavant.svg)](https://github.com/kartikeymish/RepoSavant/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/kartikeymish/RepoSavant.svg)](https://github.com/kartikeymish/RepoSavant/issues)-->
 
 RepoSavant is an innovative Python-based utility designed to elevate your GitHub experience. By simply inputting a GitHub user's URL, RepoSavant excels at pinpointing the epitome of technical complexity within their repository portfolio. 🕵️‍♂️ Harnessing the power of cutting-edge technologies, including GPT and LangChain, the tool conducts a meticulous assessment of each repository, culminating in the identification of the most technically challenging gem. 💎
 
