@@ -26,6 +26,7 @@ def get_user_repositories(username):
     client = Github(os.getenv('GITHUB_TOKEN'))
     user = client.get_user(username)
     repos = user.get_repos()
+    print(username)
     repo_info = []
     for repo in repos:
         # If repo is a fork and no one starred it, skip it
