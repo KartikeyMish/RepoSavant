@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GitHub Analyzer</title>
+    <style>
+        @font-face {
+        font-family: 'Hubot Sans';
+        src: url('path/to/HubotSans-Regular.woff2') format('woff2'),
+            url('path/to/HubotSans-Regular.woff') format('woff');
+        /* Add more formats if necessary */
+        font-weight: normal;
+        font-style: normal;
+    }
+        body {
+            font-family: "hubot sans", sans-serif;
+            margin: auto;
+            padding: 20px;
+            background-color: #0d1117; /* Dark background color */
+            color: white; /* Text color */
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 0px;
+            font-size: 100px;
+
+        }
+        h4{
+            text-align: center;
+            margin-top: 0px;
+            font-size: 1.69rem;
+        }
+
+        form {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: 40%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #161b22; /* Input field background */
+            color: white; /* Input field text color */
+        }
+
+        button[type="submit"] {
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button[type="submit"]:hover {
+            background-color: #2ea44f; /* New color when hovering */
+        }
+        .error {
+            color: red;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .result {
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        /* Styling for result links */
+        .result a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 600px; /* Limit the width */
+            margin: 0 auto; /* Center horizontally */
+            padding: 20px;
+        }
+        /* .text-thin-narrow {
+        font-weight: 70;
+        font-stretch: 75%;
+        }  */
+        /* Styling for analysis text */
+        .analysis {
+            margin-top: 10px;
+            font-weight: lighter;
+        }
+                /* Styling for About section */
+        .about {
+            background-color: #161b22;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+            font-size: 16;
+            font-family: "Hubot Sans", sans-serif;
+            border-radius: 5px;
+            text-align: justify;
+            display: flex;
+            flex-direction: column;
+        }
+        footer a{
+            color: #58a6ff;
+            text-decoration: none;
+        }
+                /* Media queries for tablet and mobile */
+                @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 60px;
+            }
+
+            h4 {
+                font-size: 1.2rem;
+            }
+
+            input[type="text"] {
+                width: 20%;
+            }
+
+            /* button[type="submit"] {
+                width: 100%;
+            } */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>RepoSavant</h1><h4>Your GitHub Complexity Companion</h4>
+
+    <form action="/analyze" method="POST">
+        <input type="text" name="username" placeholder="Enter GitHub User URL" required>
+        <button type="submit">Analyze</button>
+    </form>
+
+    {% if result %}
+
+    <div class="result">
+        <h2>Most Complex Repository</h2>
+        <h3><a href="{{ repo_url }}" target="_blank">{{ result }}</a></h3>
+        <h3>Analysis:</h3>
+        <h5 class="analysis">{{ analysis }}</h5>
+    </div>
+    <!-- <button onclick=goBack()>Again</button> -->
+    {% endif %}
+
+    {% if error %}
+    <div class="error">
+        <p>{{ error }}</p>
+    </div>
+    {% endif %}
+
+        <!-- About Section -->
+    <section class="about ">
+        <!-- <h2>About GitHub Analyzer</h2> -->
+        <p style="font-weight: light;">
+            RepoSavant is an innovative Python-based utility designed to elevate your GitHub experience. 
+            By simply inputting a GitHub user's URL, RepoSavant excels at pinpointing the epitome of technical 
+            complexity within their repository portfolio. Harnessing the power of cutting-edge technologies, 
+            including GPT and LangChain, the tool conducts a meticulous assessment of each repository, 
+            culminating in the identification of the most technically challenging gem.
+            
+        </p>
+    </section>
+    </div>
+    <footer>
+        <p style="margin: 0;text-align: center;">Made with ❤️ by <a href="https://github.com/kartikeymish" target="_blank">Kartikey Mishra</a></p>
+    </footer>
+</body>
+</html>
