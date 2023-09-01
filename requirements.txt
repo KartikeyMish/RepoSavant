@@ -3,4 +3,3 @@ requests
 openai
 pygithub
 gunicorn
-```
