@@ -73,7 +73,7 @@ def find_complex(json_data):
             },
         ],
         temperature=0,
-        max_tokens=50,
+        max_tokens=130,
     )
     analysis = response.choices[0].message.content
     return analysis
@@ -124,11 +124,9 @@ def analyze_repository():
         repos = get_user_repositories(username)
         if repos is not None:
             analysis = "you are gay"
-            # analysis = find_complex(repos)
-            print(analysis)
-            # analysis = cleanAnalysys(analysis)
-            print(analysis)
-            # name, url, analysis = nameRepoData(analysis)
+            analysis = find_complex(repos)
+            analysis = cleanAnalysys(analysis)
+            name, url, analysis = nameRepoData(analysis)
             name = "name"
             url = "url"
             if name and url and analysis:
