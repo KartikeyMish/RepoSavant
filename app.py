@@ -73,7 +73,7 @@ def find_complex(json_data):
             },
         ],
         temperature=0,
-        max_tokens=150,
+        max_tokens=200,
     )
     analysis = response.choices[0].message.content
     return analysis
