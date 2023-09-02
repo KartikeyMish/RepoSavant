@@ -86,6 +86,7 @@ def nameRepoData(input_string):
         name = name_match.group(1)
         url = url_match.group(1)
         analysis = analysis_match.group(1)
+        print("Complex repo : ",name)
         return name, url, cleanAnalysys(analysis)
     else:
         return "Error", "https://github.com", "Error"
