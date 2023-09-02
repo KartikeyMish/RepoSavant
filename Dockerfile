@@ -1,15 +1,18 @@
-FROM python:3-alpine
- 
-# Create app directory
-WORKDIR /app
- 
-# Install app dependencies
-COPY requirements.txt ./
- 
+# using python 3.11
+FROM python:3.11
+
+# set a directory for the app
+WORKDIR /reposavant
+
+# copy all the files to the container
+COPY requirements.txt requirements.txt 
+COPY ./static ./static 
+COPY ./templates ./templates 
+COPY analyze.py analyze.py
+
+# install dependencies
 RUN pip install -r requirements.txt
- 
-# Bundle app source
-COPY . .
- 
+
+# tell the port number the container should expose
 EXPOSE 5000
-CMD [ "flask", "run","--host","0.0.0.0","--port","5000"]
+CMD [ "python", "app.py" ]
