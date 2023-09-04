@@ -83,6 +83,15 @@ python app.py
 ``` 
  4. Open your browser and navigate to `http://localhost:5000`.
 
+## 🚀 Upcoming Features
+
+We're committed to making RepoSavant even better! Here's a sneak peek at some of the exciting features and improvements we have in the pipeline:
+
+- [ ] **Improved User Interface:** We're working on a more responsive and user-friendly UI that will enhance the RepoSavant experience for all users. Whether you're accessing it from your desktop or mobile device, you can expect a seamless and intuitive interface.
+
+- [ ] **Enhanced Compatibility:** RepoSavant is gearing up to be compatible with a wider range of systems and browsers. We want to ensure that everyone can benefit from this powerful GitHub analytics tool.
+
+Stay tuned for these updates and more as we continue to evolve RepoSavant to meet your needs! Your feedback and suggestions are always welcome as we work towards a smarter GitHub experience. 🌟
 
 
 ## 💪 Contributing
