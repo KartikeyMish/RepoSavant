@@ -86,6 +86,7 @@
     .analysis {
         margin-top: 10px;
         font-weight: lighter;
+        text-align: justify;
     }
             /* Styling for About section */
     .about {
