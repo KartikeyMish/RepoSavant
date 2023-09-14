@@ -1,62 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <title>RepoSavant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
     <!-- Favicon links -->
     <link rel="icon" type="image/png" sizes="192x192" href="../static/favicon/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="../static/favicon/android-chrome-512x512.png"">
-    <link rel="apple-touch-icon" href="../static/favicon/apple-touch-icon.png">
+    <link rel=" apple-touch-icon" href="../static/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../static/favicon/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../static/favicon/favicon-32x32.png">
     <link rel="shortcut icon" href="../static/favicon/favicon.ico">
-            <!-- css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preload" href="Hubot-Sans.woff2" as="font" type="font/woff2" crossorigin>
+
+
+    <!-- css link  -->
     <link rel="stylesheet" href="/static/css/style.css">
-    <style>
-        
-    </style>
+
 </head>
+
 <body>
-    <div class="container">
-    <h1>RepoSavant</h1><h4>Your GitHub Complexity Companion</h4>
+    <div class="container-fluid main-body mt-3">
+        <div class="hero-text">
+            <h1 class="">RepoSavant</h1>
+            <h4 class="mb-5">Your GitHub Complexity Companion</h4>
+        </div>
 
-    <form action="/analyze" method="POST">
-        <input type="text" name="username" placeholder="Enter GitHub User URL" required>
-        <button type="submit">Analyze</button>
-    </form>
+        <form action="/analyze" method="POST" class="row align-items-center justify-content-center form-github">
+            <div class="col">
+                <input type="text" class="" name="username" placeholder="Enter GitHub User URL" required>
+            </div>
+            <div class="col-auto">
+                <button type="submit" id="submitButton" class="">Analyze</button>
+                <div class="loader" id="loader"></div>
+            </div>
+        </form>
 
-    {% if result %}
 
-    <div class="result">
-        <h2>Most Complex Repository</h2>
-        <h3><a href="{{ repo_url }}" target="_blank">{{ result }}</a></h3>
-        <h3>Analysis:</h3>
-        <h5 class="analysis">{{ analysis }}</h5>
-    </div>
-    {% endif %}
+        {% if result %}
 
-    {% if error %}
-    <div class="error">
-        <p>{{ error }}</p>
-    </div>
-    {% endif %}
+        <div class="result">
+            <h2>Most Complex Repository</h2>
+            <h3><a href="{{ repo_url }}" target="_blank">{{ result }}</a></h3>
+            <h3>Analysis:</h3>
+            <h5 class="analysis">{{ analysis }}</h5>
+        </div>
+        {% endif %}
+
+        {% if error %}
+        <div class="error">
+            <p>{{ error }}</p>
+        </div>
+        {% endif %}
 
         <!-- About Section -->
-    {% if not result %}
-    <section class="about ">
-        <!-- <h2>About GitHub Analyzer</h2> -->
-        <p style="font-weight: light;">
-            RepoSavant is an innovative Python-based utility designed to elevate your GitHub experience. 
-            By simply inputting a GitHub user's URL, RepoSavant excels at pinpointing the epitome of technical 
-            complexity within their repository portfolio. Harnessing the power of cutting-edge technologies, 
-            including GPT and LangChain, the tool conducts a meticulous assessment of each repository, 
-            culminating in the identification of the most technically challenging gem.
-            
-        </p>
-    </section>
-    {% endif %}
+        {% if not result %}
+        <section class="about">
+            <!-- <h2>About GitHub Analyzer</h2> -->
+            <p style="font-weight: light;">
+                RepoSavant is an innovative Python-based utility designed to elevate your GitHub experience.
+                By simply inputting a GitHub user's URL, RepoSavant excels at pinpointing the epitome of technical
+                complexity within their repository portfolio. Harnessing the power of cutting-edge technologies,
+                including GPT and LangChain, the tool conducts a meticulous assessment of each repository,
+                culminating in the identification of the most technically challenging gem.
+
+            </p>
+        </section>
+        {% endif %}
     </div>
     <footer>
-        <p style="margin: 0;text-align: center;">Made with ❤️ by <a href="https://github.com/kartikeymish" target="_blank">Kartikey Mishra</a></p>
+        <p style="margin: 0; text-align: center;">Made with <span class="heart">❤️</span> by <a
+                href="https://github.com/kartikeymish" target="_blank">Kartikey Mishra</a></p>
+
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>

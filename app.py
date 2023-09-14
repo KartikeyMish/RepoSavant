@@ -25,7 +25,7 @@ def analyze_repository():
         else:
             return render_template("index.html", error="Failed to fetch repositories.")
     else:
-        return render_template("index.html", error="Invalid GitHub User.")
+        return render_template("index.html", error="Invalid GitHub User")
 
 
 if __name__ == "__main__":
