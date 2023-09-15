@@ -101,9 +101,16 @@ We're committed to making RepoSavant even better! Here's a sneak peek at some of
 Stay tuned for these updates and more as we continue to evolve RepoSavant to meet your needs! Your feedback and suggestions are always welcome as we work towards a smarter GitHub experience. 🌟
 
 
-## 💪 Contributing
+## Contributors
 
-We welcome contributions from the community! If you'd like to contribute to RepoSavant.
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## ❤️ Sponsor Us
 
