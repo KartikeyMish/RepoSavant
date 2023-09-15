@@ -101,16 +101,12 @@ We're committed to making RepoSavant even better! Here's a sneak peek at some of
 Stay tuned for these updates and more as we continue to evolve RepoSavant to meet your needs! Your feedback and suggestions are always welcome as we work towards a smarter GitHub experience. 🌟
 
 
-## Contributors
+## 🙌 Current Contributors
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-[![All Contributors](https://img.shields.io/github/all-contributors/kartikeymish/reposavant?color=ee8449&style=flat-square)](#contributors)
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
+A big thank you to the talented individuals who have contributed to RepoSavant. Your dedication and expertise are invaluable to the project's success. 
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+- [Kartikey Mishra](https://github.com/kartikeymish) :  Complete Backend & basic frontend 
+- [Suryansh Singh](https://github.com/suryanshsingh2001) : Making better UI improvements 
 
 ## ❤️ Sponsor Us
 
