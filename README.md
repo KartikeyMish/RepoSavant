@@ -106,7 +106,7 @@ Stay tuned for these updates and more as we continue to evolve RepoSavant to mee
 A big thank you to the talented individuals who have contributed to RepoSavant. Your dedication and expertise are invaluable to the project's success. 
 
 - [Kartikey Mishra](https://github.com/kartikeymish) :  Complete Backend & basic frontend 
-- [Suryansh Singh](https://github.com/suryanshsingh2001) : Making better UI improvements
+- [Suryansh Singh](https://github.com/suryanshsingh2001) : Refactoring, Responsive Design, and CSS Improvement
 
 If you'd like to join this list and make RepoSavant even better.
 
