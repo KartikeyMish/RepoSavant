@@ -89,7 +89,7 @@ We're committed to making RepoSavant even better! Here's a sneak peek at some of
 
 - [x] **Improved User Interface:** We're working on a more responsive and user-friendly UI that will enhance the RepoSavant experience for all users. Whether you're accessing it from your desktop or mobile device, you can expect a seamless and intuitive interface.
 
-- [ ] **Loading Animation:** We understand that waiting for repository analysis results can be a bit nerve-wracking. That's why we'll adding a sleek loading animation to keep you informed and entertained while RepoSavant does its magic behind the scenes.
+- [x] **Loading Animation:** We understand that waiting for repository analysis results can be a bit nerve-wracking. That's why we'll adding a sleek loading animation to keep you informed and entertained while RepoSavant does its magic behind the scenes.
 
 - [ ] **Top 3**: Quickly assess your top three most complex repositories instead of just one. Gain a deeper understanding for honing your skills effectively.
 
