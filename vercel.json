@@ -1,14 +1,9 @@
 {
+    "version": 2,
     "builds": [
-        {
-            "src": "reposavant/app.py",
-            "use": "@vercel/python"
-        }
+      { "src": "app.py", "use": "@vercel/python" }
     ],
     "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "reposavant/app.py"
-        }
+      { "src": "/(.*)", "dest": "/app.py" }
     ]
-}
+  }
