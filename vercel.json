@@ -1,0 +1,15 @@
+{
+    "builds" : [{
+        "src" : "app.py" ,
+        "use" : "@vercel/python",
+        "config" : { "maxLambdaSize" : "10mb" ,"runtime" : "python3.11"}
+    },
+    {
+        "src" : "build/build_files.sh" ,
+        "use" : "@vercel/static-build",
+        "config" : {
+            "distDir" : "staticfiles_build"
+        }
+    }
+]
+}

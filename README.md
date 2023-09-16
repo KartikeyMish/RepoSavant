@@ -87,16 +87,30 @@ python app.py
 
 We're committed to making RepoSavant even better! Here's a sneak peek at some of the exciting features and improvements we have in the pipeline:
 
-- [ ] **Improved User Interface:** We're working on a more responsive and user-friendly UI that will enhance the RepoSavant experience for all users. Whether you're accessing it from your desktop or mobile device, you can expect a seamless and intuitive interface.
+- [x] **Improved User Interface:** We're working on a more responsive and user-friendly UI that will enhance the RepoSavant experience for all users. Whether you're accessing it from your desktop or mobile device, you can expect a seamless and intuitive interface.
 
-- [ ] **Enhanced Compatibility:** RepoSavant is gearing up to be compatible with a wider range of systems and browsers. We want to ensure that everyone can benefit from this powerful GitHub analytics tool.
+- [ ] **Loading Animation:** We understand that waiting for repository analysis results can be a bit nerve-wracking. That's why we'll adding a sleek loading animation to keep you informed and entertained while RepoSavant does its magic behind the scenes.
+
+- [ ] **Top 3**: Quickly assess your top three most complex repositories instead of just one. Gain a deeper understanding for honing your skills effectively.
+
+- [ ] **Plagiarism Checker:** Worried about code uniqueness? RepoSavant will be stepping up its game with a plagiarism checker. This feature will help you identify any similarities between your code and other repositories, ensuring the integrity of your work.
+
+- [ ] **Batch Processing:** We know you're busy, so we'll be introducing the ability to input multiple GitHub URLs for batch processing. Analyze several profiles or repositories in one go, saving you time and effort.
+
 
 Stay tuned for these updates and more as we continue to evolve RepoSavant to meet your needs! Your feedback and suggestions are always welcome as we work towards a smarter GitHub experience. 🌟
 
 
-## 💪 Contributing
+## 🙌 Current Contributors
 
-We welcome contributions from the community! If you'd like to contribute to RepoSavant.
+A big thank you to the talented individuals who have contributed to RepoSavant. Your dedication and expertise are invaluable to the project's success. 
+
+- [Kartikey Mishra](https://github.com/kartikeymish) :  Complete Backend & basic frontend 
+- [Suryansh Singh](https://github.com/suryanshsingh2001) : Refactoring, Responsive Design, and CSS Improvement
+
+If you'd like to join this list and make RepoSavant even better.
+
+Your contributions are highly appreciated! 🌟
 
 ## ❤️ Sponsor Us
 
