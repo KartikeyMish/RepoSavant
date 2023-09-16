@@ -18,9 +18,8 @@ def analyze_repository():
     if username:
         repos = analyze.get_user_repositories(username)
         if repos is not None:
-            # output = analyze.find_complex(repos)
-            # name, url, analysis = analyze.nameRepoData(output)
-            name, url, analysis = "suryansh gay", "x.com", "aaaaa oooohhhh yeeeaaahhhhh baabbbbyyyyyyyyyyyyyyyyy"
+            output = analyze.find_complex(repos)
+            name, url, analysis = analyze.nameRepoData(output)
             if name and url and analysis:
                 return render_template("index.html", result=name, repo_url=url, analysis=analysis)
         else:
