@@ -11,6 +11,11 @@
 
 RepoSavant is an innovative Python-based utility designed to elevate your GitHub experience. By simply inputting a GitHub user's URL, RepoSavant excels at pinpointing the epitome of technical complexity within their repository portfolio. 🕵️‍♂️ Harnessing the power of cutting-edge technologies, including GPT and LangChain, the tool conducts a meticulous assessment of each repository, culminating in the identification of the most technically challenging gem. 💎
 
+## Demo 🧑🏻‍💻
+
+https://github.com/KartikeyMish/RepoSavant/assets/76617485/3663f82b-5f51-420d-908b-726061bba007
+
+
 ## 🌟 Why Use RepoSavant?
 
 - 🤓 **For Developers:** Quickly identify the most complex repository in your GitHub profile and focus on improving your skills and projects.
