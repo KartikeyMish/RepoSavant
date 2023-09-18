@@ -3,7 +3,7 @@
 [![version](https://img.shields.io/badge/version-1.1.0--beta-yellow)](https://github.com/yourusername/yourrepository)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/kartikeymish/RepoSavant/blob/main/LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/kartikeymish/RepoSavant.svg)](https://github.com/kartikeymish/RepoSavant/issues)
-<a href="https://reposavant.onrender.com">
+<a href="https://reposavant.vercel.com">
         <img alt="website" src="https://img.shields.io/website/http/huggingface.co/docs/transformers/index.svg?down_color=red&down_message=offline&up_message=online">
 </a>
 <!--[![GitHub Stars](https://img.shields.io/github/stars/kartikeymish/RepoSavant.svg)](https://github.com/kartikeymish/RepoSavant/stargazers)
