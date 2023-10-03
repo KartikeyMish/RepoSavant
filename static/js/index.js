@@ -20,3 +20,23 @@ document.addEventListener('DOMContentLoaded', function () {
       }
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const loadingOverlay = document.getElementById("loading-overlay");
+    const form = document.querySelector("form");
+  
+    form.addEventListener("submit", function () {
+      // Show the loading animation when the form is submitted
+      loadingOverlay.style.display = "flex";
+    });
+  
+    // You can also hide the loading animation when you receive the result, for example:
+    // Replace this with your actual logic to check for the result
+    
+    const resultElement = document.querySelector(".result");
+    if (resultElement) {
+      // Hide the loading animation when the result is displayed
+      loadingOverlay.style.display = "none";
+    }
+  });
+  
