@@ -6,7 +6,7 @@ from github import Github
 
 # Set up OpenAI API credentials
 load_dotenv()
-openai.api_key = "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"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def extract_url(user_url):
     pattern = r"(?:https?://)?(?:www\.)?github\.com/([a-zA-Z0-9_-]+)"
