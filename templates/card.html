@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 3 GitHub Repositories</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Include your custom CSS styles here -->
+    <style>
+        /* GitHub Dark Theme-inspired styles */
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: Arial, sans-serif;
+        }
+
+        .repo-card {
+            border: 1px solid #21262d;
+            margin: 10px;
+            padding: 20px;
+            background-color: #161b22;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .repo-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #58a6ff; /* GitHub Blue */
+        }
+
+        .repo-description {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            color: #c9d1d9;
+        }
+
+        .repo-analysis {
+            font-size: 1rem; /* Increased font size */
+            color: #8b949e; /* Lighter text color */
+            text-align: justify;
+        }
+
+        .view-github {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .view-github a {
+            text-decoration: none;
+            background-color: #0366d6; /* GitHub Blue */
+            color: #fff;
+            padding: 5px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        /* Add hover animations */
+        .repo-card:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .view-github a:hover {
+            background-color: #0366d6; /* GitHub Blue */
+            transform: scale(1.1); /* Scale up the button on hover */
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        /* Optional: Add a dark navbar if needed */
+        .navbar-dark {
+            background-color: #0d1117;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Top 3 GitHub Repositories</h1>
+        <div class="row">
+            <!-- Repository Card 1 -->
+            <div class="col-md-4">
+                <div class="card repo-card">
+                    <div class="repo-title">Repository 1</div>
+                    <div class="repo-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at lacinia velit. Suspendisse
+                        potenti.
+                    </div>
+                    <div class="repo-analysis">
+                        Analysis: Sed vehicula vestibulum ante, sed bibendum dui euismod sed. Nam fermentum odio nec justo sagittis, a pellentesque turpis tincidunt. Fusce non mattis lorem. Phasellus nec gravida tortor, sit amet ultrices ligula. Pellentesque sed vestibulum ex. Cras posuere tincidunt fringilla. Nulla facilisi. Donec vulputate justo ac nisl venenatis cursus. Fusce dictum justo nec enim interdum, in congue neque efficitur. Aenean luctus hendrerit fermentum. Nulla at bibendum leo. Integer eu purus nec neque vehicula laoreet vel quis elit.
+                    </div>
+                    <div class="view-github">
+                        <a href="https://github.com/user/repo1" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repository Card 2 -->
+            <div class="col-md-4">
+                <div class="card repo-card">
+                    <div class="repo-title">Repository 2</div>
+                    <div class="repo-description">
+                        Sed vitae arcu quis libero consectetur lacinia. Fusce ac erat non tellus dictum cursus.
+                    </div>
+                    <div class="repo-analysis">
+                        Analysis: Sed vitae arcu quis libero consectetur lacinia. Nulla facilisi. Sed tincidunt, nisi
+                        id feugiat consequat, orci justo lacinia lectus, sit amet blandit ligula libero a nibh. Sed
+                        at urna tortor. Sed quis bibendum nulla, eget tincidunt odio. Fusce eu diam justo. Fusce in
+                        sagittis quam. Duis varius ex sit amet neque bibendum luctus. Integer tincidunt varius urna,
+                        vel placerat odio laoreet in. Cras vitae ante turpis. Nullam ac hendrerit ligula. Morbi nec
+                        magna a ligula maximus malesuada. Etiam nec neque ut lorem fringilla lacinia sit amet et sem.
+                        Praesent quis turpis neque.
+                    </div>
+                    <div class="view-github">
+                        <a href="https://github.com/user/repo2" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repository Card 3 -->
+            <div class="col-md-4">
+                <div class="card repo-card">
+                    <div class="repo-title">Repository 3</div>
+                    <div class="repo-description">
+                        Nunc dignissim, quam sit amet suscipit eleifend, turpis odio convallis justo, a convallis
+                        justo nisi ac lectus.
+                    </div>
+                    <div class="repo-analysis">
+                        Analysis: Nunc dignissim, quam sit amet suscipit eleifend. Suspendisse potenti. Nullam
+                        ultrices tincidunt magna. Nulla facilisi. In in odio justo. Integer et risus orci.
+                        Suspendisse bibendum mauris et turpis imperdiet, nec tincidunt arcu tincidunt. Cras vel odio
+                        elementum, tempus libero ut, tincidunt est. Vivamus gravida dignissim risus, nec aliquam dui
+                        feugiat vel. Fusce ac euismod dolor, non consectetur dui. Curabitur elementum bibendum magna,
+                        ut efficitur nulla viverra quis. Integer eleifend augue sed ipsum fermentum, at iaculis felis
+                        feugiat. Nulla eget justo tincidunt, fringilla ex eu, suscipit ligula. Sed sit amet tortor non
+                        odio volutpat cursus. Nullam et lorem non nunc pellentesque sagittis sit amet vel nisi.
+                    </div>
+                    <div class="view-github">
+                        <a href="https://github.com/user/repo3" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS and any other scripts you may need -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
