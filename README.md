@@ -1,6 +1,6 @@
 # RepoSavant 🕵️‍♂️🔍💻
 
-[![version](https://img.shields.io/badge/version-1.1.0--beta-yellow)](https://github.com/yourusername/yourrepository)
+[![version](https://img.shields.io/badge/version-1.1.0--beta-yellow)](https://github.com/kartikeymish/reposavant)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/kartikeymish/RepoSavant/blob/main/LICENSE)
 [![GitHub Issues](https://img.shields.io/github/issues/kartikeymish/RepoSavant.svg)](https://github.com/kartikeymish/RepoSavant/issues)
 <a href="https://reposavant.vercel.app">
